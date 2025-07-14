@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run shell commands
-        run:
-          echo "Running shell commands..."
-          echo "Shell commands executed successfully."
+        run: echo "Running shell commands..."
+          
