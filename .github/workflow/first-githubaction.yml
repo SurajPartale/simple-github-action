@@ -1,0 +1,10 @@
+name: Run-Shell-Commands
+on: [push]
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run shell commands
+        run:
+          echo "Running shell commands..."
+          echo "Shell commands executed successfully."
